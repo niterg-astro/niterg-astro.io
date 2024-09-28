@@ -112,14 +112,14 @@
                 </div>
             </div>
             <!-- Show Nakshatra Tab -->
-            <div id="show-nakshatra-tab" class="tab-content">
+            <div id="show-nakshatra-tab" class="tab-content active">
                 <div class="row">
                     <!-- Column for zodiac selection and degree input (4 columns on large screens, 12 on small screens) -->
                     <div class="col-sm-12 col-lg-4">
                         <h2>Show Nakshatra / नक्षत्र</h2>
                         <label for="zodiac">Choose a Zodiac Sign:</label>
                         <select id="zodiac" class="form-control">
-                            <option value="">-- Select Zodiac Sign --</option>
+                            <option value="Pisces">-- Select Zodiac Sign --</option>
                             <option value="Aries">Aries / मेष</option>
                             <option value="Taurus">Taurus / वृष</option>
                             <option value="Gemini">Gemini / मिथुन</option>
@@ -142,6 +142,7 @@
                             max="30"
                             placeholder="Enter degree"
                             class="form-control"
+                            value="24"
                         >
                         <br>
                         <button onclick="findNakshatra()" class="form-control">Find Nakshatra</button>
@@ -383,14 +384,17 @@ for (const nakshatra of nakshatras) {
     translationDiv.innerHTML =
     `<b>Translation: </b> <br> ${translationSloka.translation
     .replace(/\.{1},{1}/g, ".<br><br>")
-    .replace(/\(\d+(?!-)/g, "<br>$&")
+    .replace(/\;\ \(/g, ".<br>(")
+    .replace(/\(\d+(?!-)/g, "<br><br>$&")
     .replace(/\d+\./g, "<br><br>$&")
     .replace(/\"{3}/g, " ")
+    .replace(/\"{2}/g, " ")
+    .replace(/\��/g, " - '<i><b>")
     .replace(/ {1}�{1}/g, " <i><b>'")
     .replace(/�{1}/g, "</i></b>' ")
-    .replace(/�{2}/g, "</i></b>' ")
+    .replace(/\((\d+)\)\s*([a-zA-Z]+(-[a-zA-Z]+)*)/g, "($1) <b>$2</b>")
     .replace(/(\d+\.)\s*([a-zA-Z]+(-[a-zA-Z]+)*)/g, "$1 <b>$2</b>")  
-    .replace(/\(([^)]+)\)/g, "<i>($1)</i>")}}`;
+    .replace(/\(([a-zA-Z)]+)\)/g, "<i>($1)</i>")}`;
 }
 
 // Load the CSV on window load
