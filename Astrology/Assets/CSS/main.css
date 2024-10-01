@@ -1,0 +1,64 @@
+body {
+    font-family: Poppins, sans-serif;
+    margin: 20px;
+}
+
+h2, b {
+    font-family: 'Poppins Medium';
+    font-weight: 150;
+}
+
+label {
+    font-family: 'Poppins Medium';
+    font-weight: 150;
+    font-size: 15px;
+    /* color: black; */
+    /* margin-top: 10px; */
+}
+
+.result {
+    margin-top: 20px;
+    /* font-weight: bold; */
+}
+
+.a {
+    background: url('../CSV/vishnu_sahasranamam_verses.csv');
+}
+
+.navbar-c {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-c a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-c a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.tab-content {
+    display: none;
+}
+
+.active {
+    display: block;
+    /* Use block to ensure correct behavior with Bootstrap's grid */
+}
+
+.contact-logo {
+    height: 100px;
+    width: 100px;
+}
+
+.sanskrit {
+    font-family: 'Tiro Devanagari Sanskrit';
+    font-size: 20px;
+}
