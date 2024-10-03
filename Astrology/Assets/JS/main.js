@@ -101,7 +101,7 @@ function showNakshatraFromZodiac() {
     const selectedZodiac = document.getElementById('zodiac-list').value;
     const resultDiv = document.getElementById('zodiac-result');
     let result = "";
-
+    result = `<h3>Nakshatra in ${selectedZodiac}</h3>`
     nakshatras.forEach(n => {
         if (n.zodiac.includes(selectedZodiac)) {
             const zodiacStart = (n.start % 30).toFixed(2);
