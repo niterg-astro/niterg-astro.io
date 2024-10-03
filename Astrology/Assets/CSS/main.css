@@ -53,10 +53,10 @@ label {
     /* Use block to ensure correct behavior with Bootstrap's grid */
 }
 
-.contact-logo {
+/* .contact-logo {
     height: 100px;
     width: 100px;
-}
+} */
 
 .sanskrit {
     font-family: 'Tiro Devanagari Sanskrit';
