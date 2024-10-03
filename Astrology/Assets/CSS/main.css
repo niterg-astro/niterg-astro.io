@@ -1,15 +1,15 @@
 body {
-    font-family: Poppins, sans-serif;
+    font-family: 'Poppins-Regular', sans-serif;
     margin: 20px;
 }
 
 h2, b {
-    font-family: 'Poppins Medium';
+    font-family: 'Poppins-Medium';
     font-weight: 150;
 }
 
 label {
-    font-family: 'Poppins Medium';
+    font-family: 'Poppins-Medium';
     font-weight: 150;
     font-size: 15px;
     /* color: black; */
@@ -53,10 +53,10 @@ label {
     /* Use block to ensure correct behavior with Bootstrap's grid */
 }
 
-/* .contact-logo {
-    height: 100px;
-    width: 100px;
-} */
+.contact-logo {
+    height: 100%;
+    /* width: 200px; */
+}
 
 .sanskrit {
     font-family: 'Tiro Devanagari Sanskrit';
