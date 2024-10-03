@@ -288,30 +288,65 @@ nakshatras.forEach(n => {
 
 let contact = document.getElementById("contact");
 contact.innerHTML = `
-                    <div class="row m-2">
-                        <div class="col-lg-4 col-md-6 mt-2 mb-3">
-                            <div class="card border-0">
-                                <h5>
-                                    <i class="bi bi-telegram p-2 "></i>
-                                    Telegram Group
-                                </h5>
-                                <img src="./Assets/Images/Krishna.jpeg" class="contact-logo p-2" alt="Krishna">
-                                <h4>Nitya Chat (Astrology)</h4>
-                                <div class="flex">
-                                    <a href="https://t.me/nitya_chat" target="_blank">Click here to redirect there</a>
+                    <div class="row">
+            <!-- Telegram  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card mb-3">
+                    <div class="row g-3">
+                        <div class="col-sm-12">
+                            <img src="Assets/Images/Krishna.jpeg" class="img-fluid contact-logo  rounded-2" alt="Krishna">
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="align-items-center"></div>
+                            <div class="card-body">
+                                <div class="align-items-center justify-items-center">
+                                    <h2>
+                                        <i class="bi bi-telegram p-2 "></i>
+                                        Telegram
+                                    </h2>
+                                    <br>
+                                    <h5>Nitya Chat (Astrology)</h5>
+                                    <br>
+                                    <div class="card">
+                                        <a href="https://t.me/nitya_chat" target="_blank" class="btn btn-success">
+                                            <i class="bi bi-telegram p-2 "></i>
+                                            Join Channel
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 mt-2">
-                            <div class="card border-0">
-                                <h5>
-                                    <i class="bi bi-discord p-2"></i>
-                                    Discord
-                                </h5>
-                                <img src="./Assets/Images/Narayana.jpg" class="contact-logo p-2" alt="Krishna">
-                                <h4>Sanatan Satsang</h4>
-                                <a href="https://discord.gg/fuNgs3a5CV" target="_blank">Click here to redirect there</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Discord  -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card mb-3">
+                    <div class="row g-3">
+                        <div class="col-sm-12">
+                            <img src="Assets/Images/Narayana.jpg" class="img-fluid contact-logo  rounded-2" alt="Krishna">
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="card-body">
+                                <div class="align-items-center">
+                                    <h2>
+                                        <i class="bi bi-discord p-2"></i>
+                                        Discord
+                                    </h2>
+                                    <br>
+                                    <h5>Sanatan Satsang</h5>
+                                    <br>
+                                    <div class="card">
+                                        <a href="https://discord.gg/fuNgs3a5CV" target="_blank" class="btn btn-success">
+                                            <i class="bi bi-discord p-2"></i>
+                                            Join Server
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
 `;
