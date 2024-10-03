@@ -87,3 +87,8 @@
     font-family: 'Poppins-ThinItalic';
     src: url('../Fonts/Poppins/Poppins-ThinItalic.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'Tiro Devanagari Sanskrit';
+    src: url('../Fonts/Poppins/TiroDevanagariSanskrit-Regular.ttf') format('truetype');
+}
