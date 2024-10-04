@@ -257,8 +257,8 @@ function findNakshatra() {
 
 // Load the CSV on window load
 window.onload = function () {
-    loadCSV('Assets/CSV/vishnu_sahasranamam_verses.csv'); // Ensure the path to your first CSV is correct
-    loadSingleColumnCSV('Assets/CSV/translation_.csv'); // Ensure the path to your second CSV is correct
+    loadCSV('Astrology/Assets/CSV/vishnu_sahasranamam_verses.csv'); // Ensure the path to your first CSV is correct
+    loadSingleColumnCSV('Astrology/Assets/CSV/translation_.csv'); // Ensure the path to your second CSV is correct
 };
 
 function get360DegreeFromZodiac(zodiac, degree) {
