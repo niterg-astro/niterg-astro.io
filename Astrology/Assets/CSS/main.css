@@ -60,5 +60,25 @@ label {
 
 .sanskrit {
     font-family: 'Tiro Devanagari Sanskrit';
-    font-size: 20px;
 }
+
+@media (min-width: 576px) {
+    .sanskrit {
+        font-size: 17.4px;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .sanskrit {
+        font-size: 19px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .sanskrit {
+        font-size: 20px;
+    }
+}
+
