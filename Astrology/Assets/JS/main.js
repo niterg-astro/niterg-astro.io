@@ -288,7 +288,7 @@ nakshatras.forEach(n => {
 
 let contact = document.getElementById("contact");
 contact.innerHTML = `
-                    <div class="row">
+        <div class="row">
             <!-- Telegram  -->
             <div class="col-lg-3 col-md-4 col-sm-6 col-12">
                 <div class="card mb-3">
@@ -340,6 +340,66 @@ contact.innerHTML = `
                                         <a href="https://discord.gg/fuNgs3a5CV" target="_blank" class="btn btn-success">
                                             <i class="bi bi-discord p-2"></i>
                                             Join Server
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Youtube -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card mb-3">
+                    <div class="row g-3">
+                        <div class="col-sm-12">
+                            <img src="Astrology/Assets/Images/Shenhe.jpg" class="img-fluid contact-logo  rounded-2" alt="Shenhe">
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="align-items-center"></div>
+                            <div class="card-body">
+                                <div class="align-items-center justify-items-center">
+                                    <h2>
+                                        <i class="bi bi-youtube p-2 "></i>
+                                        Youtube
+                                    </h2>
+                                    <br>
+                                    <h5>Coder Niterg</h5>
+                                    <br>
+                                    <div class="card">
+                                        <a href="https://www.youtube.com/@coderniterg" target="_blank" class="btn btn-success">
+                                            <i class="bi bi-youtube p-2 "></i>
+                                            Subscribe
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Instagram -->
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12">
+                <div class="card mb-3">
+                    <div class="row g-3">
+                        <div class="col-sm-12">
+                            <img src="Astrology/Assets/Images/Vishnu.jpg" class="img-fluid contact-logo  rounded-2" alt="VIshnu">
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="align-items-center"></div>
+                            <div class="card-body">
+                                <div class="align-items-center justify-items-center">
+                                    <h2>
+                                        <i class="bi bi-instagram p-2 "></i>
+                                        Instagram
+                                    </h2>
+                                    <br>
+                                    <h5>Niterg</h5>
+                                    <br>
+                                    <div class="card">
+                                        <a href="https://www.youtube.com/@coderniterg" target="_blank" class="btn btn-success">
+                                            <i class="bi bi-instagram p-2 "></i>
+                                            Follow
                                         </a>
                                     </div>
                                 </div>
