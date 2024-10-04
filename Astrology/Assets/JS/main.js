@@ -294,7 +294,7 @@ contact.innerHTML = `
                 <div class="card mb-3">
                     <div class="row g-3">
                         <div class="col-sm-12">
-                            <img src="Assets/Images/Krishna.jpeg" class="img-fluid contact-logo  rounded-2" alt="Krishna">
+                            <img src="Astrology/Assets/Images/Krishna.jpeg" class="img-fluid contact-logo  rounded-2" alt="Krishna">
                         </div>
                         <div class="col-sm-12">
                             <div class="align-items-center"></div>
@@ -324,7 +324,7 @@ contact.innerHTML = `
                 <div class="card mb-3">
                     <div class="row g-3">
                         <div class="col-sm-12">
-                            <img src="Assets/Images/Narayana.jpg" class="img-fluid contact-logo  rounded-2" alt="Krishna">
+                            <img src="Astrology/Assets/Images/Narayana.jpg" class="img-fluid contact-logo  rounded-2" alt="Krishna">
                         </div>
                         <div class="col-sm-12">
                             <div class="card-body">
