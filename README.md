@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
     <head>
         <meta name="description" content="Find the Nakshatra based on Zodiac sign and it's degree, Also find yourself resonatiing sloka from Vishnu Sahasranamam">
@@ -215,5 +215,7 @@
             </div>
         </div>
         <script src="./Astrology/Assets/JS/main.js"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4405875882407285"
+     crossorigin="anonymous"></script>
     </body>
 </html>
